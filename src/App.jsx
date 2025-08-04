@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './components/Home'
-import { Route, Routes } from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Team from './components/Team'
 import Career from './components/Career'
 import Contact from './components/Contact'
@@ -11,6 +11,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
+      <Router>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/team' element={<Team />} />
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/services' element={<Services />} />
       </Routes>
+      </Router>
       <hr />
 <Footer/>
     </>

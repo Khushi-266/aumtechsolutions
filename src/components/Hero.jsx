@@ -29,6 +29,7 @@ function Hero() {
             className="rounded-lg shadow-lg w-80 h-auto object-cover transition-transform duration-500 hover:scale-105"
           />
         </div>
+        
       </div>
     </section>
   );
