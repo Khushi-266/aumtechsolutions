@@ -24,7 +24,7 @@ function Hero() {
 
         <div className="md:w-1/2 w-full mb-12 md:mb-0 flex justify-center animate-fade-in">
           <img
-            src="/tech.jpg"
+            src="/tech.png"
             alt="Tech Illustration"
             className="rounded-lg shadow-lg w-80 h-auto object-cover transition-transform duration-500 hover:scale-105"
           />
