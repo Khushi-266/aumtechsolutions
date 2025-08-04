@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className="text-white bg-black py-20 px-6 md:px-12 shadow-2xl">
+    <section id='home' className="text-white bg-black py-20 px-6 md:px-12 shadow-2xl">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-purple-600 animate-fade-in-down">
@@ -13,12 +13,16 @@ function Hero() {
             automation tools, and digital strategies that fuel business growth.
           </p>
           <div className="flex justify-center md:justify-start space-x-4 mt-4">
+            <a href="#home">
             <button className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-md transition duration-300">
               Get Started
             </button>
+            </a>
+            <a href="/contact#contact">
             <button className="px-6 py-3 border border-purple-600 text-purple-400 hover:bg-purple-800 rounded-md transition duration-300">
               Contact Us
             </button>
+            </a>
           </div>
         </div>
 

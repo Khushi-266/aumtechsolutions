@@ -2,7 +2,8 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section id="contact" className="text-white body-font relative bg-gradient-to-br from-purple-900 via-indigo-900 to-black py-24 px-6 md:px-20">
+  <div id='contact'>
+    <section className="text-white body-font relative bg-gradient-to-br from-purple-900 via-indigo-900 to-black py-24 px-6 md:px-20">
       <div className="container mx-auto max-w-3xl">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 transition duration-500">
@@ -94,6 +95,7 @@ function Contact() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 
